@@ -31,6 +31,7 @@ class Game:
     
     def move(self):
         for x in self.white:
-            if type(x) is Pawn:
-                self.board = x.move(self.board)
+            if x.alive == True:
+                if type(x) is Knight:
+                    self.board = x.move(self.board)
         return
