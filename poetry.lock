@@ -1,0 +1,31 @@
+[[package]]
+category = "main"
+description = "A program to play chess on the command line"
+name = "cl-chess"
+optional = false
+python-versions = "*"
+version = "1.2.7"
+
+[package.dependencies]
+termcolor = "*"
+
+[[package]]
+category = "main"
+description = "ANSII Color formatting for output in terminal."
+name = "termcolor"
+optional = false
+python-versions = "*"
+version = "1.1.0"
+
+[metadata]
+content-hash = "b50bcb628bdcdcc832af08be568e18dd49630a83cbeeb07fde96b3635f69bb06"
+python-versions = "^3.8"
+
+[metadata.files]
+cl-chess = [
+    {file = "cl-chess-1.2.7.tar.gz", hash = "sha256:eb68bbdd850cff31fdd52f5256ea66cffdfd741dd02add73a95c795ec5ab2031"},
+    {file = "cl_chess-1.2.7-py3-none-any.whl", hash = "sha256:6ace73c8fc71abdef4a06c19e340139ff0f89580e28a2f7f748e52690ed5b360"},
+]
+termcolor = [
+    {file = "termcolor-1.1.0.tar.gz", hash = "sha256:1d6d69ce66211143803fbc56652b41d73b4a400a2891d7bf7a1cdf4c02de613b"},
+]
